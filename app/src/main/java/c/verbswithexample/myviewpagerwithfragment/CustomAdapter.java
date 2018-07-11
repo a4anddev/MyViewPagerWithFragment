@@ -3,6 +3,7 @@ package c.verbswithexample.myviewpagerwithfragment;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.FragmentStatePagerAdapter;
 
 import c.verbswithexample.myviewpagerwithfragment.AllFragments.FragmentFive;
 import c.verbswithexample.myviewpagerwithfragment.AllFragments.FragmentFour;
@@ -11,7 +12,7 @@ import c.verbswithexample.myviewpagerwithfragment.AllFragments.FragmentSix;
 import c.verbswithexample.myviewpagerwithfragment.AllFragments.FragmentThree;
 import c.verbswithexample.myviewpagerwithfragment.AllFragments.FragmentTwo;
 
-public class CustomAdapter extends FragmentPagerAdapter{
+public class CustomAdapter extends FragmentStatePagerAdapter{
 
     private final int ITEMS = 6;
 
